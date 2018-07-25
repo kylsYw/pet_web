@@ -1,13 +1,13 @@
 # pet-web
 > ##### 算是背景吧：
-> &emsp;&emsp;本项目完成于2017.10，勉勉强强赶上了毕业答辩，由于是第一个做的功能比较全的前后端项目，很多东西都是现查现学，所以有些写法会有点low，但是由于懒，所以也懒得重构了。
+> &emsp;&emsp;本项目完成于2017.10，勉勉强强赶上了毕业答辩，由于是第一个做的功能比较全的前后端项目，很多东西都是现查现学，所以有些写法会有点low，但是由于懒，所以也懒得重构了。<br/>
 &emsp;&emsp;本项目前端采用react+antd，后端采用express+node连接本地数据库来实现数据交互。由于当初才疏学浅，并不懂得redux，所以造成了很多额外的工作量，还把一些数据存到了localstorage里，这算是一个黑历史，小本本记下来。
 
-> ##### 项目启动方式:
-> &emsp;&emsp;进到项目根目录pet_web里
-&emsp;&emsp;cnpm install 或者 npm install
-&emsp;&emsp;npm run start
-&emsp;&emsp;浏览器输入localhost:3000
+> ##### 项目启动方式:<br/>
+> &emsp;&emsp;进到项目根目录pet_web里<br/>
+&emsp;&emsp;cnpm install 或者 npm install<br/>
+&emsp;&emsp;npm run start<br/>
+&emsp;&emsp;浏览器输入localhost:3000<br/>
 &emsp;&emsp;数据库账号与密码的修改在 pet_web/routes里，到时候看着改吧
 
 > ##### 提示:
