@@ -6,12 +6,14 @@ var path = require('path');
 var formidable = require('formidable')
 var util = require('util');
 var connection = mysql.createConnection({
-	host : "localhost" ,
-	user : "root" ,
-	password : "Kyls.yw9541" ,
-	database : "pet_web"
+  host : "120.79.90.200",
+  user : "root",
+  password : "Kyls.yw9541" ,
+  database : "pet_web",
+  port: 3306,
+  insecureAuth : true
 });
-	connection.connect();
+connection.connect();
 /* GET home page. */
 // 用户表
 	router.post('/user_list', function(req, res, next) {

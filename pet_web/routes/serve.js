@@ -3,10 +3,11 @@ var express = require('express');
 var router = express.Router();
 var mysql = require("mysql");
 var connection = mysql.createConnection({
-	host : "localhost" ,
+	host : "120.79.90.200" ,
 	user : "root" ,
   password: "Kyls.yw9541",
-	database : "pet_web"
+  database : "pet_web",
+  port: 3306
 });
 connection.connect();
 /* GET users listing. */
