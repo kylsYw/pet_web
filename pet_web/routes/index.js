@@ -6,7 +6,7 @@ var path = require('path');
 var formidable = require('formidable')
 var util = require('util');
 var connection = mysql.createConnection({
-  host : "120.79.90.200",
+  host : "localhost",
   user : "root",
   password : "Kyls.yw9541" ,
   database : "pet_web",

@@ -30,7 +30,7 @@ module.exports = {
       user : 'root',                        //# 也可以useradd另建用户
       host : '120.79.90.200',                 //# 服务器地址
       ref  : 'origin/master',
-      repo : 'https://gitee.com/kyls/react_pet_web.git',    //# github上的项目地址
+      repo : 'git@github.com:kylsYw/pet_web.git',    //# github上的项目地址
       path : '/pet_web',     //# 服务器上放项目的目录
       'post-deploy' : 'npm install && pm2 startOrRestart ecosystem.config.js --env production'
     },
@@ -38,8 +38,8 @@ module.exports = {
       user : 'alex',
       host : '127.0.0.1',
       ref  : 'origin/master',
-      repo : 'git@github.com:alex-my/react-note.git',
-      path : '/Code/nodejs/dev',
+      repo : 'git@github.com:kylsYw/pet_web.git',
+      path : '/pet_web',
       'post-deploy' : 'npm install && pm2 startOrRestart ecosystem.config.js --env dev',
       env  : {
         NODE_ENV: 'dev'
